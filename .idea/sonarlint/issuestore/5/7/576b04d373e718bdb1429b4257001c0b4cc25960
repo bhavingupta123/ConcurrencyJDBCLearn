@@ -1,0 +1,24 @@
+
+x
+java:S1143h"5Remove this return statement from this finally block.(«®“Õ8÷Ê´¬ú1J$954ac07e-dce8-4421-8d38-bf9f8039bf55
+Š
+java:S2095W"GUse try-with-resources or close this "Statement" in a "finally" clause.(úé÷¿8´ºº¬ú1J$05bb84b2-c985-456f-a964-608248bd873e
+—
+java:S2095E"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¥»ëÈùÿÿÿÿ8ËÂ”¬ú1J$b7e300e4-33b5-4785-9970-ef7835d90682
+Š
+java:S2095$"GUse try-with-resources or close this "Statement" in a "finally" clause.(úé÷¿8¿á»¬ú1J$f5b82d71-1a6a-420f-bbb6-1938624bf2ce
+z
+java:S2589"7Remove this expression which always evaluates to "true"(‡¡êŸ8ÌÂ”¬ú1J$b7a65459-1a38-4d80-8a89-9c5c97214973
+r	java:S106"+Replace this use of System.out by a logger.(¨ğ½øÿÿÿÿ8ÎÂ”¬ú1J$74eb45c2-2414-410f-9e85-d73fcd8f3425
+~
+java:S6437"6Revoke and change this password, as it is compromised.(¦†Ğ¦ÿÿÿÿÿ8ÏÂ”¬ú1J$7056716f-a5fb-4867-88f1-646c7635c207
+r	java:S106"+Replace this use of System.out by a logger.(Í¿ªùÿÿÿÿ8ÏÂ”¬ú1J$c0a3c0d2-e564-42fe-a461-55e1360a27f2
+p	java:S108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8ĞÂ”¬ú1J$17c7c850-a6de-4cc1-a566-6b9710b400f3
+l	java:S106'"+Replace this use of System.out by a logger.(˜ıôi8ÑÂ”¬ú1J$bdd5145b-a0ff-4b8b-9c7a-77831cfca7da
+m	java:S106/"+Replace this use of System.out by a logger.(¡˜•¬8ÑÂ”¬ú1J$088f4108-9a95-4829-af40-80a1587ff0d1
+r	java:S1067"+Replace this use of System.out by a logger.(Î„Õ¢ıÿÿÿÿ8ÑÂ”¬ú1J$924f6a46-a94f-4fe9-beb8-860d5f636fc9
+l	java:S106A"+Replace this use of System.out by a logger.(‹š…E8ÒÂ”¬ú1J$60aaefa0-26ee-4e26-ae7b-0f9d48f5b7f1
+m	java:S106B"+Replace this use of System.out by a logger.(Ïˆœò8¿»±¬ú1J$46ac92c1-dd1b-43f8-a390-91438de34cb1
+m	java:S106L"+Replace this use of System.out by a logger.(¤‘‚²8æ‰¹¬ú1J$e67b0d5c-b019-4d9a-84bc-df2956535c06
+X	java:S125Z"<This block of commented-out lines of code should be removed.(¿Œ°ö8ÊìÂ¬ú1
+r	java:S106d"+Replace this use of System.out by a logger.(ú†ŠŸûÿÿÿÿ8‰Á¬ú1J$109ea6c8-51f5-42ce-9e39-8fcfb71f7eb5
