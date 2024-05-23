@@ -1,23 +1,23 @@
 
 x
-java:S1143f"5Remove this return statement from this finally block.(«®“Õ8÷Ê´¬ú1J$d43a0762-6854-4446-abeb-d8de2eb02e07
+java:S1143k"5Remove this return statement from this finally block.(«®“Õ8û¯ì³ú1J$38266574-2c3e-4e00-a8fc-d851d1876dc3
 —
-java:S2095C"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¥»ëÈùÿÿÿÿ8ËÂ”¬ú1J$7f1dce99-7988-47fa-8bc3-593a44117531
+java:S2095D"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¥»ëÈùÿÿÿÿ8‡¡í³ú1J$82c73bba-4e56-442b-aab4-fff122b1acd3
 Š
-java:S2095U"GUse try-with-resources or close this "Statement" in a "finally" clause.(úé÷¿8´ºº¬ú1J$d2371389-f5a2-4afc-b3ec-d711a55ec54e
+java:S2095["GUse try-with-resources or close this "Statement" in a "finally" clause.(úé÷¿8‡°ì³ú1J$1f3d2cc9-dd1e-4f58-a34a-98db11dc7299
 Š
-java:S2095""GUse try-with-resources or close this "Statement" in a "finally" clause.(úé÷¿8¿á»¬ú1J$2a8e2917-7b10-4c72-b2f0-2d1010052828
+java:S2095""GUse try-with-resources or close this "Statement" in a "finally" clause.(úé÷¿8†°ì³ú1J$3f418cca-39f5-4b72-a9a4-887d9b11f10e
 z
-java:S2589"7Remove this expression which always evaluates to "true"(‡¡êŸ8ÌÂ”¬ú1J$85a3e4a6-f27e-4582-a4b8-7bcd6beb7bd5
+java:S2589"7Remove this expression which always evaluates to "true"(‡¡êŸ8‡°ì³ú1J$63c5c360-bcc0-4a8f-a24c-53ded7b8066a
 ~
-java:S6437"6Revoke and change this password, as it is compromised.(¦†Ğ¦ÿÿÿÿÿ8ÏÂ”¬ú1J$fa51ae39-2662-43e0-98ee-b87e4b40f655
-r	java:S106"+Replace this use of System.out by a logger.(Í¿ªùÿÿÿÿ8ÏÂ”¬ú1J$9f4d7b27-9188-450d-a080-8d031f643f41
-p	java:S108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8ĞÂ”¬ú1J$f5a615f4-3b2e-47de-9f19-869f2e7b4521
-l	java:S106%"+Replace this use of System.out by a logger.(˜ıôi8ÑÂ”¬ú1J$c10ed798-27e3-4813-9c44-b01b48a95323
-m	java:S106-"+Replace this use of System.out by a logger.(¡˜•¬8ÑÂ”¬ú1J$3a4e8185-e82a-45a9-a8e0-e9ac7c86a5e7
-r	java:S1065"+Replace this use of System.out by a logger.(Î„Õ¢ıÿÿÿÿ8ÑÂ”¬ú1J$5d8ef3aa-2086-49b3-82ce-467d4e2f311a
-l	java:S106?"+Replace this use of System.out by a logger.(‹š…E8ÒÂ”¬ú1J$6cb02761-513a-4f73-97e9-c89fbcbff63b
-m	java:S106@"+Replace this use of System.out by a logger.(Ïˆœò8¿»±¬ú1J$c348e238-e66e-465a-9997-a6142fdd01df
-m	java:S106J"+Replace this use of System.out by a logger.(¤‘‚²8æ‰¹¬ú1J$3e50a534-7d7e-4fd9-8c19-2fa8ef8b591a
-~	java:S125X"<This block of commented-out lines of code should be removed.(¿Œ°ö8ÊìÂ¬ú1J$faf4bf29-445c-4a81-b498-431c33a4bc6e
-r	java:S106b"+Replace this use of System.out by a logger.(ú†ŠŸûÿÿÿÿ8‰Á¬ú1J$9a07ea21-ab78-474f-aeae-ba3a31015689
+java:S6437"6Revoke and change this password, as it is compromised.(¦†Ğ¦ÿÿÿÿÿ8‰°ì³ú1J$694a27af-971e-4071-a7ff-04051639484d
+r	java:S106"+Replace this use of System.out by a logger.(Í¿ªùÿÿÿÿ8‰°ì³ú1J$2fda3acf-8e99-4ee6-8ca2-0ec3339aff6e
+p	java:S108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8‰°ì³ú1J$f51eb8bb-8a35-408e-8a10-6a9b7bb464a9
+l	java:S106%"+Replace this use of System.out by a logger.(˜ıôi8Š°ì³ú1J$9b67b8fb-4662-4d03-aa83-4f74cd38d1fa
+m	java:S106-"+Replace this use of System.out by a logger.(¡˜•¬8Š°ì³ú1J$1828f566-a8d1-49f6-83a1-64a6c403e620
+r	java:S1065"+Replace this use of System.out by a logger.(Î„Õ¢ıÿÿÿÿ8‹°ì³ú1J$d69a104b-4191-4cb6-ba77-ed007b279ed1
+l	java:S106?"+Replace this use of System.out by a logger.(‹š…E8‹°ì³ú1J$c25b3a9c-42ff-42f2-b48d-2193fc8dcac5
+m	java:S106@"+Replace this use of System.out by a logger.(Ïˆœò8‹°ì³ú1J$352f3ee0-6b32-4a70-b6f0-ecabcc78664b
+m	java:S106K"+Replace this use of System.out by a logger.(ÍØÓè8Œ°ì³ú1J$756edc16-cee5-452b-96ca-f10655e684f9
+m	java:S106P"+Replace this use of System.out by a logger.(¤‘‚²8Œ°ì³ú1J$c7ed966b-16d0-427e-87b6-999931f2c420
+r	java:S106g"+Replace this use of System.out by a logger.(ú†ŠŸûÿÿÿÿ8¡í³ú1J$30e91c5f-4d4a-4a7d-a593-dcb253a6ca52

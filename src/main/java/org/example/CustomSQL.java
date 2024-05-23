@@ -63,11 +63,17 @@ public class CustomSQL{
             System.out.println("User balance is:" + originalBalance);
             System.out.println("To withdraw :" + bal);
 
-            String sql = "UPDATE BankDetails " + "SET Balance = " + (originalBalance - bal) + " WHERE UserId = 1";
-            Statement statement = conn1.prepareStatement(sql);
+            if(originalBalance - bal >= 0){
+                String sql = "UPDATE BankDetails " + "SET Balance = " + (originalBalance - bal) + " WHERE UserId = 1";
+                Statement statement = conn1.prepareStatement(sql);
 
-            statement.execute(sql);
-            statement.close();
+                statement.execute(sql);
+                statement.close();
+            }
+
+            else {
+                System.out.println("low balance hence not possible");
+            }
         }
 
         catch (Exception e){
@@ -85,7 +91,6 @@ public class CustomSQL{
             Statement statement = conn1.createStatement();
 
             ResultSet resultSet = statement.executeQuery(selectQuery);
-//            System.out.println("\nThe Available Data");
 
             while (resultSet.next()) {
                 balance = resultSet.getInt("Balance");
