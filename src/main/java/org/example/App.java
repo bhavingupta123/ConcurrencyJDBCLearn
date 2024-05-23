@@ -13,9 +13,9 @@ public class App
         CustomThread customThread2 = new CustomThread(customSQL);
         CustomThread customThread3 = new CustomThread(customSQL);
 
-        customThread.bal = 1;
+        customThread.bal = 10;
         customThread2.bal = 2;
-        customThread3.bal = 3;
+        customThread3.bal = 300;
 
         customThread.start();
         customThread2.start();

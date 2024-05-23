@@ -15,8 +15,6 @@ public class CustomSQL{
             String user = "springstudent";
             String password = "springstudent";
 
-            System.out.println("waahh");
-
             conn1 = DriverManager.getConnection(url1, user, password);
 
             if (conn1 != null) {
@@ -56,7 +54,7 @@ public class CustomSQL{
         }
     }
 
-    public void updateDb(int bal){
+    public synchronized void updateDb(int bal){
 
         try {
 
