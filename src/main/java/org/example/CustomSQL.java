@@ -4,8 +4,13 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class CustomSQL{
+
+    private static final ConcurrentHashMap<Integer, Lock> userLocks = new ConcurrentHashMap<>();
 
     Connection conn1 = null;
     public void createConnection(){
@@ -54,17 +59,20 @@ public class CustomSQL{
         }
     }
 
-    public synchronized void updateDb(int bal){
+    public synchronized void updateDb(int bal, int userId){
+
+        Lock lock = userLocks.computeIfAbsent(userId, k -> new ReentrantLock());
+        lock.lock();
 
         try {
 
-            int originalBalance = getUserBalance();
+            int originalBalance = getUserBalance(userId);
 
-            System.out.println("User balance is:" + originalBalance);
-            System.out.println("To withdraw :" + bal);
+            System.out.println("User balance for userId : " + userId + " is:" + originalBalance);
+            System.out.println("To withdraw for userId :"  +  userId + " is:" + bal);
 
             if(originalBalance - bal >= 0){
-                String sql = "UPDATE BankDetails " + "SET Balance = " + (originalBalance - bal) + " WHERE UserId = 1";
+                String sql = "UPDATE BankDetails " + "SET Balance = " + (originalBalance - bal) + " WHERE UserId = " + userId;
                 Statement statement = conn1.prepareStatement(sql);
 
                 statement.execute(sql);
@@ -72,22 +80,28 @@ public class CustomSQL{
             }
 
             else {
-                System.out.println("low balance hence not possible");
+                System.out.println("low balance hence not possible for userId : " + userId);
             }
         }
 
         catch (Exception e){
             System.out.println("updateDb : " + e);
         }
+
+        finally {
+            lock.unlock();
+            userLocks.remove(userId, lock);
+        }
+
     }
 
-    public int getUserBalance(){
+    public int getUserBalance(int userId){
 
         int balance=0;
 
         try {
 
-            String selectQuery = "SELECT Balance FROM BankDetails WHERE UserId = 1";
+            String selectQuery = "SELECT Balance FROM BankDetails WHERE UserId = " + userId + " FOR UPDATE";
             Statement statement = conn1.createStatement();
 
             ResultSet resultSet = statement.executeQuery(selectQuery);

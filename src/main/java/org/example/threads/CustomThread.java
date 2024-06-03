@@ -8,6 +8,8 @@ public class CustomThread extends Thread{
 
     public int bal;
 
+    public int userId;
+
     public CustomThread(CustomSQL customSQL){
         this.customSQL = customSQL;
     }
@@ -15,7 +17,7 @@ public class CustomThread extends Thread{
     @Override
     public void run(){
         customSQL.createConnection();
-        customSQL.updateDb(bal);
-        customSQL.getDataFromDb();
+        customSQL.updateDb(bal, userId);
+//        customSQL.getDataFromDb();
     }
 }
