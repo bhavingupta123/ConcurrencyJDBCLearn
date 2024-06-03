@@ -59,7 +59,7 @@ public class CustomSQL{
         }
     }
 
-    public synchronized void updateDb(int bal, int userId){
+    public void updateDb(int bal, int userId){
 
         Lock lock = userLocks.computeIfAbsent(userId, k -> new ReentrantLock());
         lock.lock();

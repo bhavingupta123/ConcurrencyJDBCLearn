@@ -20,11 +20,11 @@ public class App
         customThread2.bal = 50;
         customThread2.userId = 1;
 
-        customThread3.bal = 20;
-        customThread3.userId = 3;
-
         customThread4.bal = 10;
         customThread4.userId = 1;
+
+        customThread3.bal = 20;
+        customThread3.userId = 3;
 
         customThread.start();
         customThread2.start();
